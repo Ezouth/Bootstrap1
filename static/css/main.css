@@ -1,0 +1,62 @@
+/*  Bootstrap makes a horizontal scrollbar even if you don't need it, this css input removes that (because it is unneeded here) */
+body {
+  overflow-x: hidden;
+}
+.card {
+  margin: 50px 25px;
+  padding: 25px;
+  /*  x-offset, y-offset, blur, color */
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  margin-bottom: 15px;
+}
+
+/*  Want to effect the h6, don't want to use h6 because we might define it later, so we call the class here */
+.card-subtitle {
+  padding-bottom: 8px;
+  font-style: italic;
+}
+
+.btn {
+  margin: 25px;
+}
+
+.center {
+  display: block;
+  margin: 25px auto;
+  /*  Auto will automatically fill in margins for you */
+}
+
+.img_text {
+  margin: 10px;
+  padding-top: 50px;
+}
+footer {
+  margin-top: 75px;
+  padding: 15px;
+  background-color: #343a40!important;
+  color: lightgrey;
+}
+
+.padding {
+  margin: 25px;
+  padding: 15px;
+}
+.title {
+  margin-top: 75px;
+}
+/* Want to add some margin to the form */
+form {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+/* On higher resolutions the website displays a space under footer, this is how that would be fixed
+.attach_bot {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+*/
